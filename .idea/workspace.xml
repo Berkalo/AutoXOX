@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d555274-d654-4bc1-a309-0967817a5d2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+    <list default="true" id="5d555274-d654-4bc1-a309-0967817a5d2b" name="Default Changelist" comment="Board is done, game is almost ready to play by humans">
+      <change afterPath="$PROJECT_DIR$/150000_sampl_unique.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1500_sampl.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1500_sampl_unique.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generate_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/play_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/play.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +35,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1mFXaRkLalXspqr5w9tW0itgjA3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Main.py" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Generate_data.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -53,8 +62,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Data_Analysis">
+    <configuration name="Data_Analysis" type="PythonConfigurationType" factoryName="Python">
+      <module name="AutoXOX" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Generate_Data" type="PythonConfigurationType" factoryName="Python">
       <module name="AutoXOX" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,10 +93,10 @@
       </envs>
       <option name="SDK_HOME" value="D:\Anaconda3\envs\xox\pythonw.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Generate_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,11 +126,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Main" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Python.Data_Analysis" />
+      <item itemvalue="Python.Generate_Data" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -113,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1609090375552</updated>
     </task>
+    <task id="LOCAL-00001" summary="Board is done, game is almost ready to play by humans">
+      <created>1609098571246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609098571246</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,5 +162,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Board is done, game is almost ready to play by humans" />
+    <option name="LAST_COMMIT_MESSAGE" value="Board is done, game is almost ready to play by humans" />
   </component>
 </project>
