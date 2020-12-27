@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 data = []
 import random
-num_dat = 150000
+num_dat = 2000000
 
 def concater(status, p1_moves, p2_moves, legl_moves):
     p1_maxmoves = [0]*5
