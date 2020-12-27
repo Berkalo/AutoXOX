@@ -13,10 +13,12 @@ df = pd.read_csv("2000000_sampl_unique.csv",
 df = df.iloc[1:]
 print(df.head(4))
 print(df.describe())
-print(df.info)
+print(df.info())
 
 df["Winner"] = df["Winner"].astype("category")
 
 print(df.head(4))
 print(df.describe())
-print(df.info)
+print(df.info())
+
+print(df.groupby('Winner').head())

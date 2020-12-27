@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d555274-d654-4bc1-a309-0967817a5d2b" name="Default Changelist" comment="Board is done, game is almost ready to play by humans">
-      <change beforePath="$PROJECT_DIR$/2000000_sampl_unique.csv" beforeDir="false" afterPath="$PROJECT_DIR$/2000000_sampl_unique.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generate_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Generate_data.py" afterDir="false" />
+    <list default="true" id="5d555274-d654-4bc1-a309-0967817a5d2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609108886388</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Board is done, game is almost ready to play by humans">
+      <created>1609109529721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609109529721</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +165,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
